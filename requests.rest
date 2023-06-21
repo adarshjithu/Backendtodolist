@@ -1,0 +1,15 @@
+GET http://localhost:5000/todos
+###
+POST http://localhost:5000/todo/new/
+Content-Type: application/json
+
+{"text":"drinking milk",
+"complet":true}
+
+
+###
+DELETE  http://localhost:5000/todo/delete/649188cab7b2ee522a5cfe69
+
+
+###
+PUT  http://localhost:5000/todo/complete/649188cab7b2ee522a5cfe6b
